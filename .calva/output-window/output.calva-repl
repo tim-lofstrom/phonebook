@@ -1,0 +1,134 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉phonebook.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉phonebook.core꞉> 
+(-main)
+phonebook>
+phonebook>
+Sending interrupt.
+; Evaluation was interrupted
+clj꞉phonebook.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2056).
+; null
+clj꞉phonebook.core꞉> 
+@phonebook-state
+{"tim" "123"}
+clj꞉phonebook.core꞉> 
+(test)
+; Execution error (ArityException) at phonebook.core/eval7770 (form-init6090188577020322075.clj:33).
+; Wrong number of args (0) passed to: clojure.core/test
+clj꞉phonebook.core꞉> 
+(testar)
+; Syntax error compiling at (output.calva-repl:37:1).
+; Unable to resolve symbol: testar in this context
+clj꞉phonebook.core꞉> 
+(testar)
+; Syntax error compiling at (output.calva-repl:41:1).
+; Unable to resolve symbol: testar in this context
+clj꞉phonebook.core꞉> 
+(testar)
+; Syntax error compiling at (output.calva-repl:45:1).
+; Unable to resolve symbol: testar in this context
+clj꞉phonebook.core꞉> 
+; Syntax error compiling def at (core.clj:6:1).
+; Too many arguments to def
+clj꞉phonebook.core꞉> 
+; Syntax error compiling def at (core.clj:6:1).
+; Too many arguments to def
+clj꞉phonebook.core꞉> 
+#'phonebook.core/actions
+clj꞉phonebook.core꞉> 
+; Syntax error compiling def at (core.clj:6:1).
+; Too many arguments to def
+clj꞉phonebook.core꞉> 
+; Syntax error compiling def at (core.clj:6:1).
+; Too many arguments to def
+clj꞉phonebook.core꞉> 
+#'phonebook.core/testing
+clj꞉phonebook.core꞉> 
+#'phonebook.core/testing
+clj꞉phonebook.core꞉> 
+#'phonebook.core/asd
+clj꞉phonebook.core꞉> 
+; No snippets configured. Configure snippets in `calva.customREPLCommandSnippets`.
+; No snippets configured. Configure snippets in `calva.customREPLCommandSnippets`.
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉phonebook.core꞉> 
+; Jack-in done.
+clj꞉phonebook.core꞉> 
+#'phonebook.core/phonebook-state
+clj꞉phonebook.core꞉> 
+#'phonebook.core/phonebook-state
+clj꞉phonebook.core꞉> 
+#function[clojure.core/atom]
+clj꞉phonebook.core꞉> 
+#'phonebook.core/phonebook-state
+clj꞉phonebook.core꞉> 
+#'phonebook.core/phonebook-state
+clj꞉phonebook.core꞉> 
+#'phonebook.core/-main
+clj꞉phonebook.core꞉> 
+#function[clojure.core/atom]
+clj꞉phonebook.core꞉> 
+#function[clojure.core/atom]
+clj꞉phonebook.core꞉> 
+#'phonebook.core/phonebook-state
+clj꞉phonebook.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉phonebook.core꞉> 
+; Jack-in done.
+clj꞉phonebook.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉phonebook.core꞉> 
+; Jack-in done.
+clj꞉phonebook.core꞉> 
+; nREPL Connection was closed
